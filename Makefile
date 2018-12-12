@@ -2,6 +2,9 @@ SHELL := /bin/bash
 
 all: _site
 
+clean:
+	rm -rf _site
+
 _site:
 	mkdir -p $@; \
 	cp -a ontologies $@
