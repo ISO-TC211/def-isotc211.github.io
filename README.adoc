@@ -1,0 +1,26 @@
+= ISO/TC 211 Ontologies site: def.isotc211.org
+
+image:https://travis-ci.com/ISO-TC211/def.isotc211.org.svg?branch=master[
+	Build Status, link="https://travis-ci.com/ISO-TC211/def.isotc211.org"]
+
+== Introduction
+
+The ISO/TC 211 Ontologies is used to publish ontologies
+published by ISO/TC 211 standards.
+
+This repository is used to build and deploy the
+https://def.isotc211.org site.
+
+The site is managed by ISO/TC 211.
+
+
+== Building the site
+
+[source,sh]
+----
+# removes site artifacts
+make clean
+
+# makes _site
+make all
+----
