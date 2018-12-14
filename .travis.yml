@@ -19,12 +19,12 @@ install:
   - pip install --user awscli
 deploy:
   - provider: script
-    script: ./monitor.sh aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    script: aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: master
   - provider: script
-    script: ./monitor.sh aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    script: aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: staging
