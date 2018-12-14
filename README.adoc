@@ -11,7 +11,7 @@ published by ISO/TC 211 standards.
 This repository is used to build and deploy the
 https://def.isotc211.org site.
 
-The site is managed by ISO/TC 211.
+This repository is jointly managed by ISO/TC 211 and Ribose.
 
 
 == Building the site
