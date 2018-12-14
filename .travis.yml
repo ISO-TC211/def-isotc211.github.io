@@ -7,8 +7,11 @@ env:
   global:
 before_install:
   - travis_retry sudo apt-get update
-  - travis_retry sudo apt-get install -y curl git make
+  - travis_retry sudo apt-get install -y curl git make ruby-bundler ruby-dev libxml2-dev libxslt-dev npm
+  - travis_retry gem install bundler
+  - travis_retry gem install nokogiri -v '1.8.5'
 before_script:
+  - bundle
   - make update-init update-modules
 script:
   - make _site
@@ -16,12 +19,12 @@ install:
   - pip install --user awscli
 deploy:
   - provider: script
-    script: aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    script: ./monitor.sh aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: master
   - provider: script
-    script: aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    script: ./monitor.sh aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: staging
