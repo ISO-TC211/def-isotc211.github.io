@@ -7,7 +7,7 @@ clean:
 
 _site:
 	mkdir -p $@; \
-	cp -a ontologies $@
+	cp -a ontologies/* $@
 
 update-init:
 	git submodule update --init

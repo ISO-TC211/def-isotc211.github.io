@@ -15,22 +15,14 @@ script:
 install:
   - pip install --user awscli
 deploy:
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: $S3_BUCKET_NAME
-    region: $AWS_REGION
+  - provider: script
+    script: aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
-    local_dir: _site
     on:
       branch: master
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: $S3_STAGING_BUCKET_NAME
-    region: $AWS_REGION
+  - provider: script
+    script: aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
-    local_dir: _site
     on:
       branch: staging
 after_deploy:
