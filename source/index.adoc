@@ -2,10 +2,9 @@
 layout: home
 permalink: /
 ---
-== General
+:page-liquid:
 
-Welcome to the ISO/TC 211 Ontologies site.
-
+[.section]
 == Usage
 
 Each part of each standard has a directory like: https://def.isotc211.org/StandardNumber-PartNumber/Year/Version.
@@ -15,10 +14,15 @@ For example:
 * link:19101-2/2008/catalog-v001.xml[]
 * link:19115-1/2018/iso19115-1CommonClasses.rdf[]
 
+[.section]
 == Maintenance
 
-Comments, suggestions, change requests and revisions ISO/TC 211 Standards ontologies are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository] for the ISO/TC 211 Group on Ontology Management (GOM).
+Comments, suggestions, change requests and revisions
+to ISO/TC 211 Standards ontologies
+are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository]
+for the ISO/TC 211 Group on Ontology Management (GOM).
 
-For more information, please visit the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
+For more information, please visit
+the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
 
 This site is managed by ISO/TC 211 Group on Ontology Management (GOM) and Ribose.
