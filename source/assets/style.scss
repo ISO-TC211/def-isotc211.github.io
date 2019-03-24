@@ -4,3 +4,14 @@
 @import url('https://fonts.googleapis.com/css?family=Tienne:400,700');
 
 @import 'jekyll-theme-isotc211';
+
+body.home {
+  > main > .section {
+    padding-top: 0;
+    padding-bottom: 1em;
+
+    &:first-child {
+      padding-top: 2em;
+    }
+  }
+}
