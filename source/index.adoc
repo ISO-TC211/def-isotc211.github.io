@@ -7,7 +7,8 @@ permalink: /
 [.section]
 == Usage
 
-Each part of each standard has a directory like: https://def.isotc211.org/StandardNumber-PartNumber/Year/Version.
+Each part of each standard has a directory like:
+`+++https://def.isotc211.org/StandardNumber-PartNumber/Year/Version+++`.
 
 For example:
 
