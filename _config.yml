@@ -1,5 +1,5 @@
 title: Ontologies for ISO/TC 211 Geographic information/Geomatics standards
-title_html: "TC&nbsp;211 Ontologies"
+title_html: Ontology representations of geographic technology standards
 
 author: "ISO/TC 211"
 email: open.source@ribose.com
@@ -19,7 +19,7 @@ theme: jekyll-theme-isotc211
 committee:
   id: 211
   name: Geographic information/Geomatics
-  link: https://committee.iso.org/home/tc211
+  home: https://committee.iso.org/home/tc211
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211
