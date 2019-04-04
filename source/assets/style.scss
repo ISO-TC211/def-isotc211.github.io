@@ -14,4 +14,56 @@ body.home {
       padding-top: 2em;
     }
   }
+
+  // NOTE: This bit is duplicated between XML Schema and Ontology TC 211 sites.
+  .section.locator {
+    form {
+      font-size: 90%;
+
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      align-items: flex-end;
+
+      input,
+      button {
+        background-color: #f7f7f7;
+        padding: .5em .75em;
+        border-radius: .5em;
+        border: 0;
+        cursor: pointer;
+        margin-left: -.5em;
+        line-height: inherit;
+      }
+
+      .input, .actions {
+        margin-right: 1em;
+        margin-bottom: 1em;
+      }
+
+      .input {
+        display: flex;
+        flex-flow: column nowrap;
+
+        label {
+          margin-bottom: .5em;
+
+          &:after {
+            content: ":";
+          }
+        }
+      }
+
+      .actions {
+        button {
+          margin-right: .5em;
+        }
+      }
+
+      margin-left: $sideOffsetBase;
+      margin-right: $sideOffsetBase;
+
+    }
+  }
 }

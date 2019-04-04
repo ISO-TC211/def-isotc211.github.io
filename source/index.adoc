@@ -4,16 +4,22 @@ permalink: /
 ---
 :page-liquid:
 
-[.section]
-== Usage
 
-Each part of each standard has a directory like:
-`+++https://def.isotc211.org/StandardNumber-PartNumber/Year/Version+++`.
+[.section.locator]
+== Locating ontologies
+
+The URL of each part of each standard has the following format:
+
+[source]
+--
+https://def.isotc211.org/StandardNumber-PartNumber/Year/Version
+--
 
 For example:
 
 * link:19101-2/2008/catalog-v001.xml[]
 * link:19115-1/2018/iso19115-1CommonClasses.rdf[]
+
 
 [.section]
 == Maintenance
@@ -27,3 +33,32 @@ For more information, please visit
 the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
 
 This site is managed by ISO/TC 211 Group on Ontology Management (GOM) and Ribose.
+
+
+++++
+<template id="ontologyLocator">
+  <form>
+    <div class="input">
+      <label for="ontologyStandardNumber">Standard number</label>
+      <input id="ontologyStandardNumber" type="text" placeholder="For example, 19101" name="standardNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyPartNumber">Part number</label>
+      <input id="ontologyPartNumber" type="text" placeholder="2" name="partNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyYear">Year</label>
+      <input id="ontologyYear" type="text" placeholder="2008" name="year">
+    </div>
+    <div class="input">
+      <label for="ontologyVersion">Version</label>
+      <input id="ontologyVersion" type="text" placeholder="catalog-v001.xml" name="version">
+    </div>
+    <div class="actions">
+      <button type="button" name="locate">Locate ontology</button>
+    </div>
+  </form>
+</template>
+
+<script src="{{ "/assets/locator.js" | relative_url }}"></script>
+++++
