@@ -1,7 +1,7 @@
 (function () {
 
   function getOntologyPath({ base, standardNumber, partNumber, year, version }) {
-    return `${standardNumber}-${partNumber}/${year}/${version}`;
+    return `iso${standardNumber}/-${partNumber}/${year}/${version}`;
   }
 
   class OntologyLocator {
