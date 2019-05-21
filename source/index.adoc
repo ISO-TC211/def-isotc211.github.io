@@ -12,13 +12,13 @@ The URL of each part of each standard has the following format:
 
 [source]
 --
-https://def.isotc211.org/StandardNumber-PartNumber/Year/Version
+https://def.isotc211.org/iso{StandardNumber}/-{PartNumber}/{Year}/{Version}
 --
 
 For example:
 
-* link:19101-2/2008/catalog-v001.xml[]
-* link:19115-1/2018/iso19115-1CommonClasses.rdf[]
+* link:iso19101/-2/2008/catalog-v001.xml[]
+* link:iso19115/-1/2018/CommonClasses.rdf[]
 
 
 [.section]
