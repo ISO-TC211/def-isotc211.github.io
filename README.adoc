@@ -31,6 +31,7 @@ To bring the ontologies onto def.isotc211.org, you would usually:
 . Go to https://travis-ci.com/ISO-TC211/def.isotc211.org
 
 . Click on the "More Options" menu, then click on the "Trigger Build" button: +
++
 image::https://user-images.githubusercontent.com/11865/58300653-05036680-7e16-11e9-9a69-0454289ce07e.png[width=566]
 
 . Click on "Trigger custom build" in the popup: +
