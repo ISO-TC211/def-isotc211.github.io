@@ -13,8 +13,39 @@ https://def.isotc211.org site.
 
 This repository is jointly managed by ISO/TC 211 and Ribose.
 
+== Operations
 
-== Building the site
+These sections describe how to operate and update the ontologies site.
+
+=== Updating ontologies
+
+Ontologies on this site are managed in the other Git repository: https://github.com/ISO-TC211/ontologies
+
+Remember to push your changes to that repository -- not this current one!
+
+=== Deploying the site
+
+
+To bring the ontologies onto def.isotc211.org, you would usually:
+
+. Go to https://travis-ci.com/ISO-TC211/def.isotc211.org
+
+. Click on the "More Options" menu, then click on the "Trigger Build" button: +
+image::https://user-images.githubusercontent.com/11865/58300653-05036680-7e16-11e9-9a69-0454289ce07e.png[width=566]
+
+. Click on "Trigger custom build" in the popup: +
++
+image::https://user-images.githubusercontent.com/11865/58300677-19476380-7e16-11e9-9629-b4209de85664.png[width=436]
+
+You could always try clicking on this button to trigger a build -- there are no side effects!
+
+
+== Development
+
+The following sections are only for site development and
+unnecessary for updating of the site.
+
+=== Building the site
 
 [source,sh]
 ----
