@@ -6,6 +6,13 @@ email: open.source@ribose.com
 
 font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
 
+resource_listings:
+  ontologies:
+    index_url: 'ontologies'
+    index_title: "Ontologies"
+    resource_root: 'ontologies'
+    resource_label: "ontology"
+
 description: >-
   The ontology repository for geographic information technology
   from ISO/TC 211 Geographic information/Geomatics.

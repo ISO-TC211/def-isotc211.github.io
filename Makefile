@@ -7,8 +7,10 @@ clean:
 
 build_source:
 	mkdir -p $@; \
+	mkdir -p $@/ontologies; \
 	cp -a source/* build_source; \
 	cp -a ontologies/* build_source; \
+	cp -a ontologies/* build_source/ontologies; \
 
 _site: build_source
 	bundle exec jekyll build

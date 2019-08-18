@@ -7,6 +7,9 @@ extra_scripts:
 :page-liquid:
 
 
+[.section]
+== link:/ontologies[Browse all ontologies]
+
 [.section.locator]
 == Locating ontologies
 
