@@ -13,6 +13,7 @@ before_install:
 before_script:
   - bundle
   - make update-init update-modules
+  - npm install
 script:
   - make _site
 install:
