@@ -19,7 +19,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-isotc211", "~> 0.4.3"
+gem "jekyll-theme-isotc211", "~> 0.5.2"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -27,6 +27,8 @@ gem "jekyll-theme-isotc211", "~> 0.4.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-theme-isotc211-helpers", "~> 0.5.2"
+  gem "jekyll-plugin-frontend-build", "~> 0.0.2"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-data"
   gem "jekyll-algolia"

@@ -1,6 +1,8 @@
 ---
 layout: home
 permalink: /
+extra_scripts:
+  - src: /assets/js/locator.js
 ---
 :page-liquid:
 
@@ -59,6 +61,4 @@ This site is managed by ISO/TC 211 Group on Ontology Management (GOM) and Ribose
     </div>
   </form>
 </template>
-
-<script src="{{ "/assets/locator.js" | relative_url }}"></script>
 ++++
