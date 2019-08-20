@@ -31,7 +31,7 @@ group :jekyll_plugins do
   gem "jekyll-plugin-frontend-build", "~> 0.0.2"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-data"
-  gem "jekyll-algolia"
+  # gem "jekyll-algolia"
   gem "jekyll-asciidoc"
 end
 
