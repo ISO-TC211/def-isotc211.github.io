@@ -41,7 +41,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-isotc211 (0.5.8)
+    jekyll-theme-isotc211 (0.5.9)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
@@ -79,7 +79,7 @@ DEPENDENCIES
   jekyll-data
   jekyll-feed (~> 0.6)
   jekyll-plugin-frontend-build (~> 0.0.2)
-  jekyll-theme-isotc211 (~> 0.5.4)
+  jekyll-theme-isotc211 (~> 0.5.9)
   jekyll-theme-isotc211-helpers (~> 0.5.4)
   tzinfo-data
 
