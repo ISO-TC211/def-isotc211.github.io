@@ -2,3 +2,4 @@ build_source/*
 node_modules
 _site/*
 *.scssc
+.DS_Store
