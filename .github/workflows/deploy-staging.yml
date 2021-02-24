@@ -25,6 +25,8 @@ jobs:
         with:
           ruby-version: '2.6'
       - uses: actions/checkout@master
+        with:
+          submodules: true
       - name: Update gems
         run: |
           gem install bundler -v "~> 2"
