@@ -3,13 +3,14 @@ name: deploy-staging
 on:
   push:
     branches: staging
-  repository_dispatch:
-    types: [ deploy_staging ]
 
 jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: https://staging-def.isotc211.org
     steps:
       - name: Setup prerequisites
         run: |
@@ -17,23 +18,13 @@ jobs:
           sudo apt-get install -y curl make libxml2-dev libxslt-dev nodejs-dev node-gyp libssl1.0-dev npm openssl
       - name: Setup snaps
         run: |
-          sudo snap install yq
           sudo snap install aws-cli --classic
           sudo snap install node --classic --channel=10/stable
       - name: Use Ruby
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-          architecture: 'x64'
       - uses: actions/checkout@master
-      - name: Setup git submodules
-        # env:
-        #   MLGT_DATA_DEPLOY_KEY: ${{ secrets.MLGT_DATA_DEPLOY_KEY }}
-        #   GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        run: |
-          # eval "$(ssh-agent -s)"
-          # ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
-          make update-init update-modules
       - name: Update gems
         run: |
           gem install bundler -v "~> 2"
@@ -42,17 +33,18 @@ jobs:
         run: |
           npm install
       - name: Build site
+        env:
+          JEKYLL_ENV: production
         run: |
           make _site
 
-
-      - name: Deploy to ${{ secrets.S3_BUCKET_NAME_STAGING }}
+      - name: Deploy to AWS
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_STAGING }}
-          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME_STAGING }}
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
         run: |
           aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.html" --content-type "text/html; charset=utf-8"
           aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.json" --content-type "text/json; charset=utf-8"
