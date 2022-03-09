@@ -21,9 +21,6 @@ jobs:
           node-version: '14'
           cache: 'npm'
       - run: npm install
-      - name: Setup snaps
-        run: |
-          sudo snap install yq
       - name: Update submodules
         run: |
           make update-init update-modules
