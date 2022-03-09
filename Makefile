@@ -21,6 +21,6 @@ update-init:
 	git submodule update --init
 
 update-modules:
-	git submodule foreach git pull origin master
+	git submodule foreach git pull origin main
 
 .PHONY: all clean serve update-init update-modules
