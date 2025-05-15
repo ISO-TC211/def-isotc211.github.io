@@ -1,0 +1,23 @@
+---
+layout: post
+title:  Codelist vocabs hosted by OGC
+date:   2025-05-15 14:10:20 +1000
+categories: site update
+---
+The ISO/TC 211's _GOM_ has worked with the https://www.ogc.org[OGC] to host many of the TC's standards' codelists as https://en.wikipedia.org/wiki/Semantic_Web[Semantic Web] vocabularies using the OGC's reference data platform known as the https://defs.opengis.net/prez/['OGC Rainbow'].
+
+
+.The OGC's Rainbow
+image::/assets/ogc-rainbow-screen.png[]
+
+_GOM_, officially the _Advisory Group 6, Group for Ontology Maintenance_ - has worked with the https://www.ogc.org[Open Geospatial Consortium (OGC)] to take updated versions of standards' codelists that GOM has converted from their original XML into https://en.wikipedia.org/wiki/Resource_Description_Framework[RDF] data according to the https://www.w3.org/TR/skos-reference/[SKOS] vocabulary data model and load them into the OGC Rainbow which then automatically generates different views of them, including web pages.
+
+The long-standing proposed persistent web addresses for each codelist can now be resolved - clicked on like any URL - and they will redirect to the Rainbow's human-readable web page form of them.
+
+For example, the widely used ISO19115-1's _Role Codes_ codelist is online at:
+
+http://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode
+
+Visit the catalogue of all the codelists so far published as Semantic Web vocabularies here:
+
+* https://defs.opengis.net/prez/catalogs
