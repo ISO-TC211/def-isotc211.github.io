@@ -21,7 +21,7 @@ jobs:
         bundler-cache: true
         cache-version: 0 # Increment this number if you need to re-download cached gems
 
-    - name: Setup node
+    - name: Setup Node
       uses: actions/setup-node@v4
       with:
         node-version: '14'
@@ -45,7 +45,7 @@ jobs:
     - name: Link Checker
       uses: lycheeverse/lychee-action@v2.4.1
       with:
-        args: --verbose --no-progress --exclude-file .lycheeignore -- _site/**/*.html
+        args: --verbose --no-progress -- _site/**/*.html
         fail: true
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
