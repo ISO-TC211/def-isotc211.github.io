@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "babel-upgrade": "^0.0.8"
+  },
+  "overrides": {
+    "braces": "^3.0.3",
+    "json5": "^1.0.2"
   }
 }
