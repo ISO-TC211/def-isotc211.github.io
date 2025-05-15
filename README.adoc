@@ -28,6 +28,7 @@ Remember to push your changes to that repository -- not this current one!
 
 === Deploying the site
 
+This site uses the https://jekyllrb.com/[Jekyll] static site generator tool to convert `.adoc` source files into HTML for rendering online via GitHub Pages.
 
 To bring the ontologies onto def.isotc211.org, you would usually:
 
