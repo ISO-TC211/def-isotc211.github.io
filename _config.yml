@@ -1,5 +1,5 @@
-title: Ontologies for ISO/TC 211 Geographic information/Geomatics standards
-title_html: Semantic Web representations of geographic technology standards
+title: Semantic Web representations of ISO/TC 211 Geographic information/Geomatics standards
+title_html: Semantic Web representations of ISO/TC 211 Geographic information/Geomatics standards
 
 author: "ISO/TC 211"
 email: open.source@ribose.com
@@ -14,11 +14,10 @@ resource_listings:
     resource_label: "ontology"
 
 description: >-
-  The ontology repository for geographic information technology
-  from ISO/TC 211 Geographic information/Geomatics.
+  The repository for the def.isotc211.org website and Semantic Web namespace used by ISO/TC 211 Geographic information/Geomatics for the Semantic Web representations of standards 
 
 tagline: >-
-  Ontology repository for geographic information technology
+  Semantic Web forms of geographic standards information
 
 # Build settings
 markdown: kramdown

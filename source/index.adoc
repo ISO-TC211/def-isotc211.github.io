@@ -22,6 +22,8 @@ See the catalogue of TC-211 resources at:
 
 * https://defs.opengis.net/prez/catalogs
 
+In July 2025, TC-211 plans to start testing the online delivery of ontologies.
+
 [.section]
 == Persistent Identifiers
 
