@@ -1,0 +1,6 @@
+---
+permalink: /19157/-1/2023/DataQualityMeasures/code/ValueStructure
+redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19157/-1/2023/DataQualityMeasures/code/ValueStructure
+---
+
+This page will redirect...

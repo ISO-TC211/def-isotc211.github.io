@@ -1,5 +1,5 @@
 title: Ontologies for ISO/TC 211 Geographic information/Geomatics standards
-title_html: Ontology representations of geographic technology standards
+title_html: Semantic Web representations of geographic technology standards
 
 author: "ISO/TC 211"
 email: open.source@ribose.com
@@ -64,3 +64,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

@@ -1,0 +1,6 @@
+---
+permalink: /19135/-1/2015/CoreModel/code/RE_ItemStatus
+redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_ItemStatus
+---
+
+This page will redirect...

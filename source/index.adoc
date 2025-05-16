@@ -1,67 +1,41 @@
 ---
 layout: home
 permalink: /
-extra_scripts:
-  - src: /assets/js/locator.js
 ---
 :page-liquid:
 
 
 [.section]
-== link:/ontologies[Browse all ontologies]
+== ISO TC-211's Semantic Web home
 
-[.section.locator]
-== Locating ontologies
+This web page is the root page of the `def.isotc211.org` namespace. The namespace is reserved for https://en.wikipedia.org/wiki/Semantic_Web[Semantic Web] versions of https://www.iso.org/committee/54904.html[TC-211] resources such as:
 
-The URL of each part of each standard has the following format:
+* https://www.w3.org/TR/skos-reference/[SKOS] data model vocabulary versions of 19* series standards' codelists
+* https://www.w3.org/OWL/[OWL] ontology versions of 19* series standards' data models
 
-[source]
---
-https://def.isotc211.org/iso{StandardNumber}/-{PartNumber}/{Year}/{Version}
---
+[.section]
+== Semantic Resources
 
-For example:
+Currently, as of May 2025, the only Semantic Web resources published by TC-211 are codelist vocabularies which are hosted for the TC-211 by the https://www.ogc.org[Open Geospatial Consortium (OGC)] on their reference data platform known as the https://defs.opengis.net/prez/['OGC Rainbow'].
 
-* link:iso19101/-2/2008/catalog-v001.xml[]
-* link:iso19115/-1/2018/CommonClasses.rdf[]
+See the catalogue of TC-211 resources at:
 
+* https://defs.opengis.net/prez/catalogs
+
+[.section]
+== Persistent Identifiers
+
+TC-211 Semantic Web resources all have persistent identifiers assigned to them in the form of https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier[IRIs] - web page URL addresses.
+
+You can go to the human-readable form of any TC-211 Semantic Web resource by just clicking on its IRI, for example, here is the IRI for ISO19115's _Role Code_ codelist:
+
+link:/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode[http://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode]
 
 [.section]
 == Maintenance
 
-Comments, suggestions, change requests and revisions
-to ISO/TC 211 Standards ontologies
-are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository]
-for the ISO/TC 211 Group on Ontology Management (GOM).
+This web page and the TC's Semantic Web resources are managed by the TC's https://committee.iso.org/sites/tc211/home/about/advisory-groups.html[_Advisory Group 6: Group on Ontology Maintenance (GOM)_] and the OGC.
 
-For more information, please visit
-the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
+For any further information about these resources, please contact GOM whos contact details can be found at:
 
-This site is managed by ISO/TC 211 Group on Ontology Management (GOM) and Ribose.
-
-
-++++
-<template id="ontologyLocator">
-  <form>
-    <div class="input">
-      <label for="ontologyStandardNumber">Standard number</label>
-      <input id="ontologyStandardNumber" type="text" placeholder="For example, 19101" name="standardNumber">
-    </div>
-    <div class="input">
-      <label for="ontologyPartNumber">Part number</label>
-      <input id="ontologyPartNumber" type="text" placeholder="2" name="partNumber">
-    </div>
-    <div class="input">
-      <label for="ontologyYear">Year</label>
-      <input id="ontologyYear" type="text" placeholder="2008" name="year">
-    </div>
-    <div class="input">
-      <label for="ontologyVersion">Version</label>
-      <input id="ontologyVersion" type="text" placeholder="catalog-v001.xml" name="version">
-    </div>
-    <div class="actions">
-      <button type="button" name="locate">Locate ontology</button>
-    </div>
-  </form>
-</template>
-++++
+* https://github.com/ISO-TC211/GOM#contact

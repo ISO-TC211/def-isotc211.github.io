@@ -1,0 +1,6 @@
+---
+permalink: /19160/-1/2015/Address/code/AddressAliasType
+redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19160/-1/2015/Address/code/AddressAliasType
+---
+
+This page will redirect...

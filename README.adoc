@@ -48,7 +48,7 @@ You could always try clicking on this button to trigger a build -- there are no 
 == Development
 
 The following sections are only for site development and
-unnecessary for updating of the site.
+unnecessary for updating site ontology data.
 
 === Building the site
 
@@ -59,4 +59,7 @@ make clean
 
 # makes _site
 make all
+
+# serve the site locally
+bundle exec jekyll serve
 ----

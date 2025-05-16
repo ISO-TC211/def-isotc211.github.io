@@ -1,0 +1,6 @@
+---
+permalink: /19115/-1/2014/IdentificationInformation/code/MD_SpatialRepresentationTypeCode
+redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_SpatialRepresentationTypeCode
+---
+
+This page will redirect...
