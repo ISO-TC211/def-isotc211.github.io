@@ -1,6 +1,6 @@
 ---
 permalink: /19160/-1/2015/Address/code/AddressStatus
-redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19160/-1/2015/Address/code/AddressStatus
+redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19160/-1/2015/Address/code/AddressStatus
 ---
 
 This page will redirect...

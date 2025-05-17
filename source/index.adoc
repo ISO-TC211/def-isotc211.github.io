@@ -8,21 +8,32 @@ permalink: /
 [.section]
 == ISO TC-211's Semantic Web home
 
-This web page is the root page of the `def.isotc211.org` namespace. The namespace is reserved for https://en.wikipedia.org/wiki/Semantic_Web[Semantic Web] versions of https://www.iso.org/committee/54904.html[TC-211] resources such as:
+This web page is the root page of the `def.isotc211.org` namespace. The namespace is reserved for https://en.wikipedia.org/wiki/Semantic_Web[Semantic Web] versions of https://www.iso.org/committee/54904.html[TC-211] resources.
 
-* https://www.w3.org/TR/skos-reference/[SKOS] data model vocabulary versions of 19* series standards' codelists
-* https://www.w3.org/OWL/[OWL] ontology versions of 19* series standards' data models
+=== Table of Contents
+
+* <<Semantic Resources>>
+* <<Persistent Identifiers>>
+* <<Maintenance>>
+* <<Published so far>>
 
 [.section]
 == Semantic Resources
 
-Currently, as of May 2025, the only Semantic Web resources published by TC-211 are codelist vocabularies which are hosted for the TC-211 by the https://www.ogc.org[Open Geospatial Consortium (OGC)] on their reference data platform known as the https://defs.opengis.net/prez/['OGC Rainbow'].
+The types of Semantic Web resources published here are:
 
-See the catalogue of TC-211 resources at:
+* https://www.w3.org/TR/skos-reference/[SKOS] data model vocabulary versions of 19* series standards' codelists
+* https://www.w3.org/OWL/[OWL] ontology versions of 19* series standards' data models
+
+Currently, as of May 2025, the only Semantic Web resources published by TC-211 are some of the codelist vocabularies which are hosted for the TC-211 by the https://www.ogc.org[Open Geospatial Consortium (OGC)] on their reference data platform known as the https://defs.opengis.net/prez/['OGC Rainbow'].
+
+See the entire catalogue of TC-211 resources at:
 
 * https://defs.opengis.net/prez/catalogs
 
 In July 2025, TC-211 plans to start testing the online delivery of ontologies.
+
+See the section _Published so far_ below for the complete list of published resources.
 
 [.section]
 == Persistent Identifiers
@@ -41,3 +52,65 @@ This web page and the TC's Semantic Web resources are managed by the TC's https:
 For any further information about these resources, please contact GOM whos contact details can be found at:
 
 * https://github.com/ISO-TC211/GOM#contact
+
+
+[.section]
+== Published so far
+
+These are the resources so far published as Semantic Web objects:
+
+[cols="1,2,6",stripes=even]
+|===
+|Standard | Object | IRI
+
+1.29+.<| 19115 | Scope Code | https://def.isotc211.org/19115/-1/2014/CommonClasses/code/MD_ScopeCode
+| Classification Code | https://def.isotc211.org/19115/-1/2014/ConstraintInformation/code/MD_ClassificationCode
+| Restriction Code | https://def.isotc211.org/19115/-1/2014/ConstraintInformation/code/MD_RestrictionCode
+| Medium Format Code | https://def.isotc211.org/19115/-1/2014/DistributionInformation/code/MD_MediumFormatCode
+| Keyword Type Code - Bio | https://def.isotc211.org/19115/-1/2014/ExampleOfExtendedMatadata/code/KeywordTypeCode-Bio
+| Association Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode
+| Initiative Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_InitiativeTypeCode
+| Keyword Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_KeywordTypeCode
+| Progress Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_ProgressCode
+| Spatial Representation Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_SpatialRepresentationTypeCode
+| Country Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/CountryCode
+| Language Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/LanguageCode
+| Character Set Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/MD_CharacterSetCode
+| Maintenance Frequency Code | https://def.isotc211.org/19115/-1/2014/MaintenanceInformation/code/MD_MaintenanceFrequencyCode
+| Datatype Code | https://def.isotc211.org/19115/-1/2014/MetadataExtensionInformation/code/MD_DatatypeCode
+| Reference System Type Code | https://def.isotc211.org/19115/-1/2014/ReferenceSystemInformation/code/MD_ReferenceSystemTypeCode
+| DCP List | https://def.isotc211.org/19115/-1/2014/ServiceMetadataInformation/code/DCPList
+| Coupling Type | https://def.isotc211.org/19115/-1/2014/ServiceMetadataInformation/code/SV_CouplingType
+| Date Type Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_DateTypeCode
+| OnLine Function Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_OnLineFunctionCode
+| Presentation Form Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_PresentationFormCode
+| Role Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode
+| Telephone Type Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_TelephoneTypeCode
+| Coverage Content Type Code | https://def.isotc211.org/19115/-1/2018/ContentInformation/code/MD_CoverageContentTypeCode
+| Imaging Condition Code | https://def.isotc211.org/19115/-1/2018/ContentInformation/code/MD_ImagingConditionCode
+| Cell Geometry Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_CellGeometryCode
+| Dimension Name Type Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_DimensionNameTypeCode
+| Geometric Object Type Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_GeometricObjectTypeCode
+| Topology Level Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_TopologyLevelCode
+
+1.5+| 19135 | Amendment Type | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_AmendmentType
+| Decision Status | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_DecisionStatus
+| Disposition | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_Disposition
+| Item Status | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_ItemStatus
+| Similarity To Source | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_SimilarityToSource
+
+1.2+| 19157 | Evaluation Method Type Code | https://def.isotc211.org/19157/-1/2023/DataQualityEvaluation/code/EvaluationMethodTypeCode
+| Value Structure | https://def.isotc211.org/19157/-1/2023/DataQualityMeasures/code/ValueStructure
+
+1.11+| 19160 | Address Alias Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressAliasType
+| Address Class | https://def.isotc211.org/19160/-1/2015/Address/code/AddressClass
+| Address Component Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressComponentType
+| Address Component Value Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressComponentValueType
+| Address Lifecycle Stage | https://def.isotc211.org/19160/-1/2015/Address/code/AddressLifecycleStage
+| Address Position Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressPositionType
+| AddressS Status | https://def.isotc211.org/19160/-1/2015/Address/code/AddressStatus
+| AddressS Typology | https://def.isotc211.org/19160/-1/2015/Address/code/AddressTypology
+| Addressable Object Lifecycle Stage | https://def.isotc211.org/19160/-1/2015/Address/code/AddressableObjectLifecycleStage
+| Addressable Object Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressableObjectType
+| Reference Object Type | https://def.isotc211.org/19160/-1/2015/Address/code/ReferenceObjectType
+|===

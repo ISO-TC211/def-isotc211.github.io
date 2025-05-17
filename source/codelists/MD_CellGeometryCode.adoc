@@ -1,6 +1,6 @@
 ---
 permalink: /19115/-1/2018/SpatialRepresentationInformation/code/MD_CellGeometryCode
-redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_CellGeometryCode
+redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_CellGeometryCode
 ---
 
 This page will redirect...

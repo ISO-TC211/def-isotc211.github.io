@@ -1,6 +1,6 @@
 ---
 permalink: /19157/-1/2023/DataQualityEvaluation/code/EvaluationMethodTypeCode
-redirect_to: https://defs-hosted.opengis.net/prez-hosted/object?uri=http://def.isotc211.org/19157/-1/2023/DataQualityEvaluation/code/EvaluationMethodTypeCode
+redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19157/-1/2023/DataQualityEvaluation/code/EvaluationMethodTypeCode
 ---
 
 This page will redirect...
