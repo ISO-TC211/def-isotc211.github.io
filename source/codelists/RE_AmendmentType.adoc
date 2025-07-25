@@ -1,6 +1,0 @@
----
-permalink: /19135/-1/2015/CoreModel/code/RE_AmendmentType
-redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_AmendmentType
----
-
-This page will redirect...

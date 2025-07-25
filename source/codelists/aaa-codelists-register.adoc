@@ -1,6 +1,0 @@
----
-permalink: /codelists/
-redirect_to: "https://defs.opengis.net/prez/catalogs/ogc-cat:hosted/col/tc211:"
----
-
-This page will redirect...

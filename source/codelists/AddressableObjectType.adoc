@@ -1,6 +1,0 @@
----
-permalink: /19160/-1/2015/Address/code/AddressableObjectType
-redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19160/-1/2015/Address/code/AddressableObjectType
----
-
-This page will redirect...

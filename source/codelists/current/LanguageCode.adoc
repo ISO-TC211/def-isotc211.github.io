@@ -1,0 +1,6 @@
+---
+permalink: /common/LanguageCode
+redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/LanguageCode
+---
+
+This page will redirect...

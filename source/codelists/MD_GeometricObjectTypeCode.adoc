@@ -1,6 +1,0 @@
----
-permalink: /19115/-1/2018/SpatialRepresentationInformation/code/MD_GeometricObjectTypeCode
-redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_GeometricObjectTypeCode
----
-
-This page will redirect...
