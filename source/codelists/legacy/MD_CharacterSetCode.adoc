@@ -1,6 +1,6 @@
 ---
 permalink: /19115/-1/2014/Language-CharactersetLocalizationInformation/MD_CharacterSetCode
-redirect_to: https://defs.opengis.net/prez-backend/object?uri=http://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/MD_CharacterSetCode
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/MD/CharacterSetCode
 ---
 
 This page will redirect...
