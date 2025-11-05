@@ -42,7 +42,7 @@ TC-211 Semantic Web resources all have persistent identifiers assigned to them i
 
 You can go to the human-readable form of any TC-211 Semantic Web resource by just clicking on its IRI, for example, here is the IRI for ISO19115's _Role Code_ codelist:
 
-link:/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode[http://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode]
+link:/CI/RoleCode]
 
 [.section]
 == Maintenance
@@ -63,54 +63,54 @@ These are the resources so far published as Semantic Web objects:
 |===
 |Standard | Object | IRI
 
-1.29+.<| 19115 | Scope Code | https://def.isotc211.org/19115/-1/2014/CommonClasses/code/MD_ScopeCode
-| Classification Code | https://def.isotc211.org/19115/-1/2014/ConstraintInformation/code/MD_ClassificationCode
-| Restriction Code | https://def.isotc211.org/19115/-1/2014/ConstraintInformation/code/MD_RestrictionCode
-| Medium Format Code | https://def.isotc211.org/19115/-1/2014/DistributionInformation/code/MD_MediumFormatCode
-| Keyword Type Code - Bio | https://def.isotc211.org/19115/-1/2014/ExampleOfExtendedMatadata/code/KeywordTypeCode-Bio
-| Association Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode
-| Initiative Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_InitiativeTypeCode
-| Keyword Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_KeywordTypeCode
-| Progress Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_ProgressCode
-| Spatial Representation Type Code | https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_SpatialRepresentationTypeCode
-| Country Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/CountryCode
-| Language Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/LanguageCode
-| Character Set Code | https://def.isotc211.org/19115/-1/2014/Language-CharactersetLocalizationInformation/code/MD_CharacterSetCode
-| Maintenance Frequency Code | https://def.isotc211.org/19115/-1/2014/MaintenanceInformation/code/MD_MaintenanceFrequencyCode
-| Datatype Code | https://def.isotc211.org/19115/-1/2014/MetadataExtensionInformation/code/MD_DatatypeCode
-| Reference System Type Code | https://def.isotc211.org/19115/-1/2014/ReferenceSystemInformation/code/MD_ReferenceSystemTypeCode
-| DCP List | https://def.isotc211.org/19115/-1/2014/ServiceMetadataInformation/code/DCPList
-| Coupling Type | https://def.isotc211.org/19115/-1/2014/ServiceMetadataInformation/code/SV_CouplingType
-| Date Type Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_DateTypeCode
-| OnLine Function Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_OnLineFunctionCode
-| Presentation Form Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_PresentationFormCode
-| Role Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode
-| Telephone Type Code | https://def.isotc211.org/19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_TelephoneTypeCode
-| Coverage Content Type Code | https://def.isotc211.org/19115/-1/2018/ContentInformation/code/MD_CoverageContentTypeCode
-| Imaging Condition Code | https://def.isotc211.org/19115/-1/2018/ContentInformation/code/MD_ImagingConditionCode
-| Cell Geometry Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_CellGeometryCode
-| Dimension Name Type Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_DimensionNameTypeCode
-| Geometric Object Type Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_GeometricObjectTypeCode
-| Topology Level Code | https://def.isotc211.org/19115/-1/2018/SpatialRepresentationInformation/code/MD_TopologyLevelCode
+1.29+.<| 19115 | Scope Code | https://def.isotc211.org/MD/ScopeCode
+| Classification Code | https://def.isotc211.org/MD/ClassificationCode
+| Restriction Code | https://def.isotc211.org/MD/RestrictionCode
+| Medium Format Code | https://def.isotc211.org/MD/MediumFormatCode
+| Keyword Type Code - Bio | https://def.isotc211.org/common/KeywordTypeCode-Bio
+| Association Type Code | https://def.isotc211.org/DS/AssociationTypeCode
+| Initiative Type Code | https://def.isotc211.org/DS/InitiativeTypeCode
+| Keyword Type Code | https://def.isotc211.org/MD/KeywordTypeCode
+| Progress Code | https://def.isotc211.org/MD/ProgressCode
+| Spatial Representation Type Code | https://def.isotc211.org/MD/SpatialRepresentationTypeCode
+| Country Code | https://def.isotc211.org/common/CountryCode
+| Language Code | https://def.isotc211.org/common/LanguageCode
+| Character Set Code | https://def.isotc211.org/MD/CharacterSetCode
+| Maintenance Frequency Code | https://def.isotc211.org/MD/MaintenanceFrequencyCode
+| Datatype Code | https://def.isotc211.org/MD/DatatypeCode
+| Reference System Type Code | https://def.isotc211.org/MD/ReferenceSystemTypeCode
+| DCP List | https://def.isotc211.org/common/DCPList
+| Coupling Type | https://def.isotc211.org/SV/CouplingType
+| Date Type Code | https://def.isotc211.org/CI/DateTypeCode
+| OnLine Function Code | https://def.isotc211.org/CI/OnLineFunctionCode
+| Presentation Form Code | https://def.isotc211.org/CI/PresentationFormCode
+| Role Code | https://def.isotc211.org/CI/RoleCode
+| Telephone Type Code | https://def.isotc211.org/CI/TelephoneTypeCode
+| Coverage Content Type Code | https://def.isotc211.org/MD/CoverageContentTypeCode
+| Imaging Condition Code | https://def.isotc211.org/MD/ImagingConditionCode
+| Cell Geometry Code | https://def.isotc211.org/MD/CellGeometryCode
+| Dimension Name Type Code | https://def.isotc211.org/MD/DimensionNameTypeCode
+| Geometric Object Type Code | https://def.isotc211.org/MD/GeometricObjectTypeCode
+| Topology Level Code | https://def.isotc211.org/MD/TopologyLevelCode
 
-1.5+| 19135 | Amendment Type | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_AmendmentType
-| Decision Status | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_DecisionStatus
-| Disposition | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_Disposition
-| Item Status | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_ItemStatus
-| Similarity To Source | https://def.isotc211.org/19135/-1/2015/CoreModel/code/RE_SimilarityToSource
+1.5+| 19135 | Amendment Type | https://def.isotc211.org/RE/AmendmentType
+| Decision Status | https://def.isotc211.org/RE/DecisionStatus
+| Disposition | https://def.isotc211.org/RE/Disposition
+| Item Status | https://def.isotc211.org/RE/ItemStatus
+| Similarity To Source | https://def.isotc211.org/RE/SimilarityToSource
 
-1.2+| 19157 | Evaluation Method Type Code | https://def.isotc211.org/19157/-1/2023/DataQualityEvaluation/code/EvaluationMethodTypeCode
-| Value Structure | https://def.isotc211.org/19157/-1/2023/DataQualityMeasures/code/ValueStructure
+1.2+| 19157 | Evaluation Method Type Code | https://def.isotc211.org/common/EvaluationMethodTypeCode
+| Value Structure | https://def.isotc211.org/common/ValueStructure
 
-1.11+| 19160 | Address Alias Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressAliasType
-| Address Class | https://def.isotc211.org/19160/-1/2015/Address/code/AddressClass
-| Address Component Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressComponentType
-| Address Component Value Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressComponentValueType
-| Address Lifecycle Stage | https://def.isotc211.org/19160/-1/2015/Address/code/AddressLifecycleStage
-| Address Position Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressPositionType
-| AddressS Status | https://def.isotc211.org/19160/-1/2015/Address/code/AddressStatus
-| AddressS Typology | https://def.isotc211.org/19160/-1/2015/Address/code/AddressTypology
-| Addressable Object Lifecycle Stage | https://def.isotc211.org/19160/-1/2015/Address/code/AddressableObjectLifecycleStage
-| Addressable Object Type | https://def.isotc211.org/19160/-1/2015/Address/code/AddressableObjectType
-| Reference Object Type | https://def.isotc211.org/19160/-1/2015/Address/code/ReferenceObjectType
+1.11+| 19160 | Address Alias Type | https://def.isotc211.org/common/AddressAliasType
+| Address Class | https://def.isotc211.org/common/AddressClass
+| Address Component Type | https://def.isotc211.org/common/AddressComponentType
+| Address Component Value Type | https://def.isotc211.org/common/AddressComponentValueType
+| Address Lifecycle Stage | https://def.isotc211.org/common/AddressLifecycleStage
+| Address Position Type | https://def.isotc211.org/common/AddressPositionType
+| AddressS Status | https://def.isotc211.org/common/AddressStatus
+| AddressS Typology | https://def.isotc211.org/common/AddressTypology
+| Addressable Object Lifecycle Stage | https://def.isotc211.org/common/AddressableObjectLifecycleStage
+| Addressable Object Type | https://def.isotc211.org/common/AddressableObjectType
+| Reference Object Type | https://def.isotc211.org/common/ReferenceObjectType
 |===
