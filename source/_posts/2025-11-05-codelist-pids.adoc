@@ -1,0 +1,29 @@
+---
+layout: post
+title:  Codelist PIDs in place
+date:   2025-11-05 11:35:21 +1000
+categories: site update
+---
+
+Persistent identifiers for Codelists and Code Sets have been implemented using the `def.isotc211.org` namespace.
+
+Shorter namespaces for the vocabularies have been implemented, for example, instead of:
+
+`https://def.isotc211.org/19160/-1/2015/Address/AddressableObjectLifecycleStage`
+
+we now have
+
+`https://def.isotc211.org/common/AddressableObjectLifecycleStage`
+
+The older, longer, forms still work, but they will redirect to the newer, shorter, forms.
+
+All legacy Codelists are contained within module-named namespaces. For example, all Codelists in the `CI` module have `/CI/` in their namespace such as:
+
+* `https://def.isotc211.org/CI/DateTypeCode`
+* `https://def.isotc211.org/CI/OnLineFunctionCode`
+
+All Codelists / Code Sets not in a named module, such as _DCPList_ and _Address Alias Type_, and all future Code Sets are in the `/common/` namespace, e.g.:
+
+* `https://def.isotc211.org/common/DCPList`
+* `https://def.isotc211.org/common/AddressAliasType`
+* `https://def.isotc211.org/common/CountryCode`
