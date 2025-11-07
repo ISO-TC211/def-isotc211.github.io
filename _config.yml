@@ -6,13 +6,6 @@ email: nick@kurrawong.ai
 
 font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
 
-resource_listings:
-  ontologies:
-    index_url: 'ontologies'
-    index_title: "Ontologies"
-    resource_root: 'ontologies'
-    resource_label: "ontology"
-
 description: >-
   The repository for the def.isotc211.org website and Semantic Web namespace used by ISO/TC 211 Geographic information/Geomatics for the Semantic Web representations of standards 
 
@@ -69,3 +62,13 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
+
+# Primary navigation
+nav:
+  items:
+    - id: home
+      url: /
+      title: Home
+    - id: ontologies
+      url: /ontologies
+      title: Ontologies

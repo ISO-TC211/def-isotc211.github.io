@@ -9,7 +9,6 @@ clean:
 build_source:
 	mkdir -p $@; \
 	cp -a source/* build_source; \
-	cp -a ontologies/* build_source; \
 
 _site: build_source
 	bundle exec jekyll build
@@ -17,10 +16,5 @@ _site: build_source
 serve: _site
 	bundle exec jekyll serve
 
-update-init:
-	git submodule update --init
-
-update-modules:
-	git submodule foreach git pull origin main
 
 .PHONY: all clean serve update-init update-modules

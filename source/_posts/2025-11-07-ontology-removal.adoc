@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Ontology Removal
+date:   2025-11-07 19:45:21 +1000
+categories: site update
+---
+
+The collection of ontologies, auto-generated from TC-211 UML models, that were housed on this site have been removed.
+
+This is because the Group on Ontology Maintenance, GOM, is now considering how to better create and deliver ontologies in new was from November 2025, onwards after the recent work to https://defs.opengis.net/prez/catalogs/ogc-cat:hosted/col/defisotc211org:codesets[publish TC-211 codelist vocabularies via the Open Geospatial Consortium's 'Rainbow' platform].
+
+For the moment, a placeholder page is available at https://def.isotc211.org/ontologies.

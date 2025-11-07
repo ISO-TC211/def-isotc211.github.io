@@ -1,5 +1,5 @@
 ---
-permalink: /codelists
+permalink: /codesets
 redirect_to: "https://defs.opengis.net/prez/catalogs/ogc-cat:hosted/col/defisotc211org:codesets"
 ---
 

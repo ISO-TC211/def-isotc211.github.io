@@ -1,0 +1,16 @@
+---
+layout: home
+permalink: /ontologies
+---
+:page-liquid:
+
+[.section]
+== Ontologies
+
+==== 7th November, 2025
+
+The collection of ontologies, auto-generated from TC-211 UML models, that were housed on this page have been removed.
+
+This is because the Group on Ontology Maintenance, GOM, is now considering how to better create and deliver ontologies in new was from November 2025, onwards after the recent work to https://defs.opengis.net/prez/catalogs/ogc-cat:hosted/col/defisotc211org:codesets[publish TC-211 codelist vocabularies via the Open Geospatial Consortium's 'Rainbow' platform].
+
+Please visit this page after the November 2025 TC-211 Plenary session in Gothenburg for updates to ontology republication.
