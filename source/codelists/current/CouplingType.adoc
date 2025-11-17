@@ -1,0 +1,6 @@
+---
+permalink: /common/CouplingType
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/CouplingType
+---
+
+This page will redirect...

@@ -1,0 +1,6 @@
+---
+permalink: /common/ScopeCode
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/ScopeCode
+---
+
+This page will redirect...

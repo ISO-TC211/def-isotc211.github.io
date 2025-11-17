@@ -1,0 +1,6 @@
+---
+permalink: /common/AssociationTypeCode
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/AssociationTypeCode
+---
+
+This page will redirect...

@@ -1,0 +1,6 @@
+---
+permalink: /common/Disposition
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/Disposition
+---
+
+This page will redirect...
