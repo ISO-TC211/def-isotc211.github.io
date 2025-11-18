@@ -1,0 +1,6 @@
+---
+permalink: /common/standards
+redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/standards
+---
+
+This page will redirect...
