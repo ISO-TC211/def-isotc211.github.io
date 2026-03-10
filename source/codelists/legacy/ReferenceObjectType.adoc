@@ -1,6 +1,0 @@
----
-permalink: /19160/-1/2015/Address/ReferenceObjectType
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/ReferenceObjectType
----
-
-This page will redirect...

@@ -1,6 +1,0 @@
----
-permalink: /SV/CouplingType
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/SV/CouplingType
----
-
-This page will redirect...

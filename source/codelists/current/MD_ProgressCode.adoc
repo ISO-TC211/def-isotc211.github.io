@@ -1,6 +1,0 @@
----
-permalink: /MD/ProgressCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/MD/ProgressCode
----
-
-This page will redirect...

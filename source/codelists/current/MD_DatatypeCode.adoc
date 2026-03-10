@@ -1,6 +1,0 @@
----
-permalink: /MD/DatatypeCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/MD/DatatypeCode
----
-
-This page will redirect...

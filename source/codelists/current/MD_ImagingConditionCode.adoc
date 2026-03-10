@@ -1,6 +1,0 @@
----
-permalink: /MD/ImagingConditionCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/MD/ImagingConditionCode
----
-
-This page will redirect...

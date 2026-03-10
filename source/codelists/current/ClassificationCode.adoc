@@ -1,6 +1,0 @@
----
-permalink: /common/ClassificationCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/ClassificationCode
----
-
-This page will redirect...

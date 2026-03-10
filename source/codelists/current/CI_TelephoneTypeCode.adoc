@@ -1,6 +1,0 @@
----
-permalink: /CI/TelephoneTypeCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/CI/TelephoneTypeCode
----
-
-This page will redirect...

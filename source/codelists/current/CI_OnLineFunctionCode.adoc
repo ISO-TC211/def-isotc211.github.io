@@ -1,6 +1,0 @@
----
-permalink: /CI/OnLineFunctionCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/CI/OnLineFunctionCode
----
-
-This page will redirect...

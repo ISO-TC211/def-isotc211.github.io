@@ -1,65 +1,26 @@
-= ISO/TC 211 Ontologies site: def.isotc211.org
+= ISO/TC211 Semantic Web Home
 
-image:https://github.com/ISO-TC211/def.isotc211.org/workflows/build/badge.svg["Build Status", link="https://github.com/ISO-TC211/def.isotc211.org/actions?workflow=build"]
+This repository contains the static website content of the https://def.isotc211.org, the home page of the https://www.iso.org[ISO]'s https://www.iso.org/committee/54904.html[Technical Committee 211]'s https://en.wikipedia.org/wiki/Semantic_Web[Semantic Web] content.
 
-image:https://github.com/ISO-TC211/def.isotc211.org/workflows/deploy-master/badge.svg["Build Status", link="https://github.com/ISO-TC211/def.isotc211.org/actions?workflow=deploy-master"]
+It also contains the web address redirection logic necissary to support persistent identifiers for ISO/TC211 semantic web objects that use the `https://def.isotc211.org/` namespace.
 
-image:https://github.com/ISO-TC211/def.isotc211.org/workflows/deploy-staging/badge.svg["Build Status", link="https://github.com/ISO-TC211/def.isotc211.org/actions?workflow=deploy-staging"]
+The ISO/TC211 is responsible for the standardization of 'Geographic information/Geomatics' information and produces a series of data models that are defined in the 19* series of ISO standards, for example, https://www.iso.org/standard/73118.html[ISO 19115-1:2014] which describes 'Geographic information — Metadata — Part 1: Fundamentals'.
 
-== Introduction
+Semantic Web objects defined for standards like ISO 19115 include _Code Sets_, for example 19115's https://def.isotc211.org/common/RoleCode[Role Code] codeset that defines "function performed by the responsible party [for catalogues spatial data]".
 
-The ISO/TC 211 Ontologies is used to publish ontologies
-published by ISO/TC 211 standards.
+== Content
 
-This repository is used to build and deploy the
-https://def.isotc211.org site.
+The folder `web/` contains the few static web pages rendered online at https://def.isotc211.org.
 
-This repository is jointly managed by ISO/TC 211 and Ribose.
+The folder `redirects/` contains the Apache server configuration for redirections of https://def.isotc211.org to the current resolving system, which is The https://defs.opengis.net/prez/[OGC's Rainbow Reference Data Platform].
 
-== Operations
+== License and Use
 
-These sections describe how to operate and update the ontologies site.
+The content of this repository is not expected to be relevant for use outside of the single deployment of https://def.isotc211.org, however, if you want to use any part, the applicable license is the https://creativecommons.org/licenses/by/4.0/[Creative Commons 4.0 BY license], a copy of the deed of which is contained in the file `LICENSE`.
 
-=== Updating ontologies
+== Contact
 
-Ontologies on this site are managed in the other Git repository: https://github.com/ISO-TC211/ontologies
+This repository and all work involving https://def.isotc211.org is managed by the https://committee.iso.org/sites/tc211/home/about/advisory-groups.html[ISO/TC211 _Advisory Group 6 - Group on Ontology Maintenance].
+Please contact that group using the details at:
 
-Remember to push your changes to that repository -- not this current one!
-
-=== Deploying the site
-
-This site uses the https://jekyllrb.com/[Jekyll] static site generator tool to convert `.adoc` source files into HTML for rendering online via GitHub Pages.
-
-To bring the ontologies onto def.isotc211.org, you would usually:
-
-. Go to https://travis-ci.com/ISO-TC211/def.isotc211.org
-
-. Click on the "More Options" menu, then click on the "Trigger Build" button: +
-+
-image::https://user-images.githubusercontent.com/11865/58300653-05036680-7e16-11e9-9a69-0454289ce07e.png[width=566]
-
-. Click on "Trigger custom build" in the popup: +
-+
-image::https://user-images.githubusercontent.com/11865/58300677-19476380-7e16-11e9-9629-b4209de85664.png[width=436]
-
-You could always try clicking on this button to trigger a build -- there are no side effects!
-
-
-== Development
-
-The following sections are only for site development and
-unnecessary for updating site ontology data.
-
-=== Building the site
-
-[source,sh]
-----
-# removes site artifacts
-make clean
-
-# makes _site
-make all
-
-# serve the site locally
-bundle exec jekyll serve
-----
+* https://github.com/ISO-TC211/GOM#contact

@@ -1,6 +1,0 @@
----
-permalink: /19157/-1/2023/DataQualityEvaluation/EvaluationMethodTypeCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/EvaluationMethodTypeCode
----
-
-This page will redirect...

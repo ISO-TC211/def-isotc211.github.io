@@ -1,6 +1,0 @@
----
-permalink: /MD/RestrictionCode
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/MD/RestrictionCode
----
-
-This page will redirect...

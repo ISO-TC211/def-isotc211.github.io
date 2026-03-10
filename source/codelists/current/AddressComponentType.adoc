@@ -1,6 +1,0 @@
----
-permalink: /common/AddressComponentType
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/common/AddressComponentType
----
-
-This page will redirect...

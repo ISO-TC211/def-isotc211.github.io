@@ -1,6 +1,0 @@
----
-permalink: /RE/DecisionStatus
-redirect_to: https://defs.opengis.net/prez-backend/object?iri=https://def.isotc211.org/RE/DecisionStatus
----
-
-This page will redirect...
