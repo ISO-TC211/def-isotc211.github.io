@@ -164,7 +164,7 @@
         <ul>
           <li>
             <p><a href="https://www.w3.org/TR/skos-reference/">SKOS</a> data model vocabulary versions of 19* series
-              standards' codelists</p>
+              standards' code sets</p>
           </li>
           <li>
             <p><a href="https://www.w3.org/OWL/">OWL</a> ontology versions of 19* series standards' data models</p>
@@ -173,7 +173,7 @@
       </div>
       <div class="paragraph">
         <p>Currently, as of May 2025, the only Semantic Web resources published
-          by TC-211 are some of the codelist vocabularies which are hosted for the
+          by TC-211 are some of the code set vocabularies which are hosted for the
           TC-211 by the <a href="https://www.ogc.org/">Open Geospatial Consortium (OGC)</a> on their reference data
           platform known as the <a href="https://defs.opengis.net/prez/">'OGC Rainbow'</a>.</p>
       </div>
@@ -202,15 +202,15 @@
       <p>TC-211 Semantic Web resources all have persistent identifiers assigned to them in the form of <a
               href="https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier">IRIs</a> - web page URL
         addresses.</p>
-      <p>You can go to the human-readable form of any TC-211 Semantic Web resource by just clicking on its IRI, for example, here is the IRI for ISO19115’s <em>Role Code</em> codelist:</p>
-      <p><a href="https://def.isotc211.org/common/RoleCode">https://def.isotc211.org/common/RoleCode</a></p>
+      <p>You can go to the human-readable form of any TC-211 Semantic Web resource by just clicking on its IRI, for example, here is the IRI for ISO19115’s <em>Role Code</em> code set:</p>
+      <p><a href="https://def.isotc211.org/codeset/RoleCode">https://def.isotc211.org/codeset/RoleCode</a></p>
       <h3>IRI Patterns</h3>
       <p>
         TC-211 maintains the following patterns for its Semantic Web resources:
       </p>
       <ul>
         <li>
-          <code>https://def.isotc211.org/common/{CODESET_ID}</code> - Code Set vocabularies
+          <code>https://def.isotc211.org/codeset/{CODESET_ID}</code> - Code Set vocabularies
           <ul>
             <li>where <code>{CODESET_ID}</code> is a unique ID for the codeset based on its originating UML package location in the <em>Harmonised Model</em></li>
           </ul>
@@ -218,8 +218,8 @@
         <li>
           <code>https://def.isotc211.org/ont/{ONTOLOGY_ID}</code> - Ontologies (proposed)
           <ul>
-            <li>where <code>{ONTOLOGY_ID}</code> is a unique ID for the ontology based on the common name for its domain</li>
-            <li>this is not conformed yet</li>
+            <li>where <code>{ONTOLOGY_ID}</code> is a unique ID for the ontology based on the ISO code for the standard that defines it, e.g. "19115"</li>
+            <li>this is not confirmed yet</li>
           </ul>
         </li>
       </ul>
@@ -258,11 +258,11 @@
       <h3>Code Set vocabularies</h3>
       <p>The Code Set vocabularies are all published online at their IRI identifier locations, for example, the ISO 19115-1 <em>Role Codes</em> code set is online at:</p>
       <ul>
-        <li><code><a href="https://def.isotc211.org/common/RoleCode">https://def.isotc211.org/common/RoleCode</a></code></li>
+        <li><code><a href="https://def.isotc211.org/codeset/RoleCode">https://def.isotc211.org/codeset/RoleCode</a></code></li>
       </ul>
-      <p>The complete listing of Code Set vocabularies published so far is given by the "common" catalogue listing of TC-211 Semantic Web resources:</p>
+      <p>The complete listing of Code Set vocabularies published so far is given in the "codeset" catalogue listing:</p>
       <ul>
-        <li><code><a href="https://def.isotc211.org/common">https://def.isotc211.org/common</a></code></li>
+        <li><code><a href="https://def.isotc211.org/codesets">https://def.isotc211.org/codesets</a></code></li>
       </ul>
       <h3>Ontologies</h3>
       <p>No ontologies have yet been published in production. Previously TC-211 test published ontologies in XML only but these have been withdrawn.</p>
@@ -284,7 +284,7 @@
         <div class="excerpt">
           <div class="paragraph">
             <p>We have implemented a new server to for redirections <a href="https://def.isotc211.org">https://def.isotc211.org</a> redirections.</p>
-            <p>This allows redirections to elements such as codes within codelists, e.g. <a href="https://def.isotc211.org/common/RoleCode/editor">https://def.isotc211.org/common/RoleCode/editor</a> to the <code>editor</code> code, not just to the whole Code Set.</p>
+            <p>This allows redirections to elements such as codes within code sets, e.g. <a href="https://def.isotc211.org/codeset/RoleCode/editor">https://def.isotc211.org/codeset/RoleCode/editor</a> to the <code>editor</code> code, not just to the whole Code Set.</p>
           </div>
         </div>
       </article>
@@ -306,7 +306,7 @@
       <article class="
     news-item-card
     ">
-        <h3 class="title"><a href="/codelist-pids.html">Codelist PIDs in
+        <h3 class="title"><a href="/codeset-pids.html">Codelist PIDs in
           place</a></h3>
         <div class="meta">November 05, 2025</div>
         <div class="excerpt">
@@ -320,13 +320,13 @@
       <article class="
     news-item-card
     ">
-        <h3 class="title"><a href="/codelist-vocabs-hosted-by-ogc.html">Codelist
+        <h3 class="title"><a href="/codeset-vocabs-hosted-by-ogc.html">Codelist
           vocabs hosted by OGC</a></h3>
         <div class="meta">May 15, 2025</div>
         <div class="excerpt">
           <div class="paragraph">
             <p>The ISO/TC 211’s <em>GOM</em> has worked with the <a href="https://www.ogc.org/">OGC</a> to host many of
-              the TC’s standards' codelists as <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a>
+              the TC’s standards' code sets as <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a>
               vocabularies using the OGC’s reference data platform known as the <a
                       href="https://defs.opengis.net/prez/">'OGC Rainbow'</a>.</p>
           </div>

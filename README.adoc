@@ -6,7 +6,7 @@ It also contains the web address redirection logic necissary to support persiste
 
 The ISO/TC211 is responsible for the standardization of 'Geographic information/Geomatics' information and produces a series of data models that are defined in the 19* series of ISO standards, for example, https://www.iso.org/standard/73118.html[ISO 19115-1:2014] which describes 'Geographic information — Metadata — Part 1: Fundamentals'.
 
-Semantic Web objects defined for standards like ISO 19115 include _Code Sets_, for example 19115's https://def.isotc211.org/common/RoleCode[Role Code] codeset that defines "function performed by the responsible party [for catalogues spatial data]".
+Semantic Web objects defined for standards like ISO 19115 include _Code Sets_, for example 19115's https://def.isotc211.org/codeset/RoleCode[Role Code] codeset that defines "function performed by the responsible party [for catalogues spatial data]".
 
 == Content
 
